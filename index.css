@@ -1,0 +1,278 @@
+
+body{
+    font-family: 'Gabarito';
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#portfolio{
+    font-size: 8vw;
+    color: white;
+    transform: translate(15vw,0vw);
+    width: 0vw;
+    margin-bottom: 1vw;
+    padding-top: 15vw;
+}
+
+#name{
+    font-size: 4vw;
+    color: white;
+    transform: translate(13vw,0vw);
+    width: 40vw;
+    margin-bottom: 0vw;
+}
+.aboutme{
+    font-size: 4vw;
+    color: white;
+    transform: translate(42vw,20vw);
+    width: 18vw;
+    margin-bottom: 0vw;
+}
+
+    
+
+.head{
+    display: flex;
+    position: fixed;
+    font-size: calc(60% + 0.8vmin);
+    font-size: 1.5vw;
+}
+
+.por{
+    transform: translate(10vw,1vw );
+}
+.pro{
+    transform: translate(50vw,1vw );
+}
+.in{
+    display: none;
+}
+.fa{
+    transform: translate(80vw,1vw);
+}
+
+.box1{
+    background-color: white;
+    width: 41vw;
+    height: 37vw;
+    transform: translate(3vw,27vw);
+    padding: 0vw;
+    margin: 0vw;
+}
+.imgbox1{
+    width: 38vw;
+    height: 34vw;
+    transform: translate(1.5vw,1.5vw);
+}
+.เขียนภา{
+    font-size: 3vw;
+    transform: translate(55vw,0vw);
+    width: 32vw;
+}
+.css{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(53vw,0vw);
+    width: 37vw;
+    margin-bottom: 8vw;
+}
+
+.เรียนมา{
+    font-size: 3vw;
+    transform: translate(61vw,0vw);
+    width: 25vw;
+}
+.css2{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(50vw,0vw);
+    width: 45vw;
+    margin-bottom: 0vw;
+}
+
+.box2{
+    background-color: white;
+    width: 41vw;
+    height: 37vw;
+    transform: translate(55vw,30vw);
+    padding: 0%;
+    margin: 0%;
+}
+.imgbox2{
+    width: 38vw;
+    height: 34vw;
+    transform: translate(1.5vw,1.5vw);
+}
+.สนใจ{
+    font-size: 3vw;
+    transform: translate(6vw,0vh);
+    width: 37vw;
+}
+.css3{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(5vw,0vh);
+    width: 45vw;
+    margin-bottom: 8vw;
+}
+
+.เวลา{
+    font-size: 3vw;
+    transform: translate(12vw,0vh);
+    width: 25vw;
+}
+.css4{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(4vw,0vw);
+    width: 45vw;
+    margin-bottom: 20vw;
+}
+
+.pic0{
+    display: flex;
+}
+.pic1{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0vw;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+
+.pic1:hover{
+    width: 29vw;
+    height: 19vw;
+}
+
+.pic2{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+.pic2:hover{
+    width: 29vw;
+    height: 19vw;
+}
+
+.pic3{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+.pic3:hover{
+    width: 29vw;
+    height: 19vw;
+}
+.css5{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(4vw,0vw);
+    width: 24vw;
+    margin-bottom: 15vw;
+}
+.css6{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(12vw,0vw);
+    width: 28vw;
+    margin-bottom: 15vw;
+}
+.css7{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(16vw,0vw);
+    width: 28vw;
+    margin-bottom: 15vw;
+}
+
+.pic4{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0vw;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+
+.pic4:hover{
+    width: 29vw;
+    height: 19vw;
+}
+
+.pic5{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+.pic5:hover{
+    width: 29vw;
+    height: 19vw;
+}
+
+.pic6{
+    width: 30vw;
+    height: 20vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    padding: 0px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: 0.5s;
+}
+.pic6:hover{
+    width: 29vw;
+    height: 19vw;
+}
+
+.css8{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(4vw,0vw);
+    width: 24vw;
+    margin-bottom: 15vw;
+}
+.css9{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(12vw,0vw);
+    width: 28vw;
+    margin-bottom: 15vw;
+}
+.css10{
+    color: white;
+    font-size: 1.5vw;
+    transform: translate(16vw,0vw);
+    width: 28vw;
+    margin-bottom: 15vw;
+}

@@ -1,0 +1,275 @@
+
+body{
+        font-family: 'Gabarito';
+        background-color: black;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .head{
+        display: flex;
+        position: fixed;
+        font-size: calc(60% + 0.8vmin);
+        font-size: 1.5vw;
+    }
+    
+    .por{
+        transform: translate(10vw,1vw );
+    }
+    .pro{
+        transform: translate(50vw,1vw );
+    }
+    .in{
+        display: none;
+    }
+    .fa{
+        transform: translate(80vw,1vw );
+    }
+
+    .certificate{
+        font-size: calc(60% + 0.8vmin);
+        font-size: 8vw;
+        color: white;
+        width: 0vw;
+        transform: translate(30vw,0vw );
+        margin-bottom: 35vw;
+        padding-top: 15vw;
+    }
+
+
+    .css1{
+        color: white;
+        font-size: calc(60% + 0.8vmin);
+        font-size: 3vw;
+        transform: translate(22vw,0vw );
+        max-width: 60vw;
+    }
+    .img1{
+        width: 34vw;
+        height:38vw;
+        margin-left:2vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img1:hover{
+        width: 33vw;
+        height: 37vw;
+    }
+
+    .img2{
+        width: 34vw;
+        height: 38vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img2:hover{
+        width: 33vw;
+        height: 37vw;
+    }
+
+    .img3{
+        width: 34vw;
+        height: 38vw;
+        margin-left:1vw;
+        margin-right:2vw;
+        margin-bottom: 15vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img3:hover{
+        width: 33vw;
+        height: 37vw;
+    }
+
+    .css2{
+        color: white;
+        font-size: calc(60% + 0.8vmin);
+        font-size: 3vw;
+        transform: translate(22vw,0vw );
+        max-width: 60vw;
+    }
+    .img4{
+        width: 43vw;
+        height: 31vw;
+        margin-left:5vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img4:hover{
+        width: 42vw;
+        height: 30vw;
+    }
+
+    .img5{
+        width: 41vw;
+        height: 31vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom: 15vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img5:hover{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .css6{
+        color: white;
+        font-size: calc(60% + 0.8vmin);
+        font-size: 3vw;
+        transform: translate(22vw,0vw );
+        max-width: 60vw;
+    }
+
+    .img12{
+        width: 43vw;
+        height: 31vw;
+        margin-left:5vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img12:hover{
+        width: 42vw;
+        height: 30vw;
+    }
+
+    .img13{
+        width: 41vw;
+        height: 31vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom: 15vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img13:hover{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .css3{
+        color: white;
+            font-size: calc(60% + 0.8vmin);
+            font-size: 3vw;
+            transform: translate(22vw,0vw );
+            max-width: 60vw;
+    }
+    .img6{
+        width: 43vw;
+        height: 31vw;
+        margin-left:5vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img6:hover{
+        width: 42vw;
+        height: 30vw;
+    }
+
+    .img7{
+        width: 41vw;
+        height: 31vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom: 15vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img7:hover{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .css4{
+        color: white;
+            font-size: calc(60% + 0.8vmin);
+            font-size: 3vw;
+            transform: translate(22vw,0vw );
+            max-width: 60vw;
+    }
+
+    .img8{
+        width: 43vw;
+        height: 31vw;
+        margin-left:5vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img8:hover{
+        width: 42vw;
+        height: 30vw;
+    }
+
+    .img9{
+        width: 41vw;
+        height: 31vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom: 15vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img9:hover{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .css5{
+        color: white;
+            font-size: calc(60% + 0.8vmin);
+            font-size: 3vw;
+            transform: translate(22vw,0vw );
+            max-width: 60vw;
+    }
+    .img10{
+        width: 43vw;
+        height: 31vw;
+        margin-left:5vw;
+        margin-right:1vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img10:hover{
+        width: 42vw;
+        height: 30vw;
+    }
+
+    .img11{
+        width: 41vw;
+        height: 31vw;
+        margin-left:1vw;
+        margin-right:1vw;
+        margin-bottom: 20vw;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: 0.5s;
+    }
+    .img11:hover{
+        width: 40vw;
+        height: 30vw;
+    }
+
+    
